@@ -1,9 +1,9 @@
 # Odoo-Hackathon-
 Problem statement:
-StackIt is a m inim al question-and-answer platform that supports collaborative
+StackIt is a minimal question-and-answer platform that supports collaborative
 learning and structured knowledge sharing. It’s designed to be sim ple, user- friendly,
 and focused on the core experience of asking and answering questions within a
-community
+community.
 
 Team members:
 1. Samruddhi Savane
