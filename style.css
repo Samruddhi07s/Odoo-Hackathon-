@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #f8f8f8;
+
+  background: linear-gradient(120deg, #2b5876, #4e4376);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 12px 24px;
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+  border-bottom: 1px solid #00fff7;
+}
+
+.main-navbar a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.main-navbar a:hover {
+  color: #22D3EE;
+  text-shadow: 0 0 5px #22D3EE;
+}
+
+.notification {
+  position: relative;
+  font-size: 1.5rem;
+  color: #00fff7;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.notification:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  text-shadow: 0 0 6px #00fff7;
+  transform: scale(1.05);
+}
+
+.notification .count {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: #ff4081;
+  color: white;
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(255, 64, 129, 0.7);
+}
+header {
+  padding: 20px 0;
+}
+ 
+
+h1 {
+ 
+  display: inline-block;
+  position: relative;
+  color: #F3F4F6;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  
+ 
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  background: #22D3EE;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+h1:hover::after {
+  transform: scaleX(1);
+}
+
+/* #head{
+text-align: center;
+font-size: 200px;
+margin: 20;
+height: fit-content;
+} */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 26px 24px 30px;
+  background: linear-gradient(120deg, #2b5876, #4e4376);
+  /* background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); */
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.15);
+  
+  /* border:5px solid rgb(28, 138, 138); */
+  border: 2px solid #00fff7;
+}
+
+.ask-btn {
+  background-color: #00fff7;
+  color: #0f2027;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.ask-btn:hover {
+  background-color: #1de9b6;
+}
+
+
+.filters button {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #444;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.filters button:hover {
+  background-color: #333;
+}
+
+.search {
+  flex-grow: 1;
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+  box-shadow: inset 0 0 6px rgba(0, 255, 255, 0.2);
+}
+.signup-btn {
+  background-color: #56d3e3;
+  color: black;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.signup-btn:hover {
+  background-color: #ff69b4;
+}
+
+.question-box {
+  margin-top: 30px;
+}
+
+.question {
+  border: 1px solid #444;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #222;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.user-tag {
+  color: #ffb74d;
+  font-weight: bold;
+}
+
+.answers {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.tags span {
+  background-color: #555;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 0.85rem;
+}
+
+.username {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-top: 5px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination .page,
+.pagination span {
+  display: inline-block;
+  color: #ddd;
+  background-color: #333;
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .page:hover {
+  background-color: #666;
+}

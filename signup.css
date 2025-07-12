@@ -1,0 +1,89 @@
+/* Neon Style SignUp Page */
+
+body {
+  background: linear-gradient(135deg, #09001f, #0c0f2e, #000);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+.signup-container {
+  background: rgba(15, 15, 30, 0.85);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.2), 0 0 50px rgba(0, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 420px;
+  transition: all 0.3s ease;
+}
+
+.signup-container:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.4), 0 0 60px rgba(0, 255, 255, 0.15);
+}
+
+.signup-container h3 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.8rem;
+  background: linear-gradient(to right, #22d3ee, #38bdf8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.form-control {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #334155;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #22d3ee;
+  outline: none;
+  box-shadow: 0 0 8px #22d3ee;
+}
+
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(90deg, #00f0ff, #0fffc1);
+  color: #000;
+  border: none;
+  padding: 0.8rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #0fffc1;
+}
+
+.text-center {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.text-center a {
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
