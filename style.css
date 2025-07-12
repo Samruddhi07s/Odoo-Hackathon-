@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3D74B6;
+  color: #eee;
+  margin: 0;
+  padding: 0 20px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.top-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ask-btn {
+  background-color: #2196f3;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filters button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.question-box {
+  margin-top: 30px;
+}
+
+.question {
+  border: 1px solid #444;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #222;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.user-tag {
+  color: #ffb74d;
+  font-weight: bold;
+}
+
+.answers {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.tags span {
+  background-color: #555;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 0.85rem;
+}
+
+.username {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-top: 5px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination .page,
+.pagination span {
+  display: inline-block;
+  color: #ddd;
+  background-color: #333;
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination .page:hover {
+  background-color: #666;
+}
